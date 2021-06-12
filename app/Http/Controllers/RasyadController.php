@@ -86,6 +86,6 @@ class RasyadController extends Controller
 
     public function export() 
     {
-        return Excel::download(new rasyad_xlxs, 'Data_1461900114.xlsx');
+        return Rasyad::download(new rasyad_xlxs, 'Data_1461900114.xlsx');
     }
 }
